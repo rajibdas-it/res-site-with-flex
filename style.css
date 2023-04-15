@@ -58,6 +58,11 @@ nav ul li {
   color: white;
   /* margin-top: 20px; */
 }
+.btn-primary:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: #ff6b3d;
+}
 
 .hero {
   background-color: #fffbf0;
@@ -124,7 +129,7 @@ img {
   padding: 0.5rem 0;
 }
 .course-info {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 /* i.bx {
   font-size: 1rem;
@@ -149,5 +154,9 @@ img {
   }
   .hero {
     padding: 0;
+  }
+  .course-list {
+    flex-direction: column;
+    gap: 3rem;
   }
 }
